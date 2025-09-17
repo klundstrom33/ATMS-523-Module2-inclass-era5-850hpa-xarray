@@ -1,0 +1,17 @@
+name: era5-850
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - jupyterlab
+  - ipykernel
+  - xarray>=2024.6.0
+  - dask>=2024.6.0
+  - zarr>=3.0.0
+  - fsspec>=2024.5.0
+  - gcsfs>=2024.5.0
+  - numpy
+  - pandas
+  - matplotlib
+  - numcodecs
+  - cftime
